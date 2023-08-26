@@ -39,12 +39,13 @@ body {
   }
   nav li {
     margin: 0 20px;
-    font-size: 1.125em;
+    font-size: 1.25em;
+    font-family: 'ADLaM Display', cursive;
   }
   nav a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
     transition: color 0.3s ease;
   }
 
@@ -54,10 +55,12 @@ body {
 
   .image {
     text-align: left; /* Center the image */
+    min-width: 1200px;
   }
   
   .image img {
-    max-width: 45%; /* Ensure the image doesn't exceed its container's width */
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
     height: auto; /* Maintain aspect ratio */
+    filter: brightness(0.6);
   }
 
