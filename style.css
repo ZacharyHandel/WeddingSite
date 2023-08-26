@@ -38,8 +38,8 @@ body {
     display: flex;
   }
   nav li {
-    margin: 0 30px;
-    font-size: 1.25em;
+    margin: 0 20px;
+    font-size: 1.125em;
   }
   nav a {
     text-decoration: none;
@@ -51,3 +51,13 @@ body {
   nav a:hover {
     color: gray;
   }
+
+  .image {
+    text-align: left; /* Center the image */
+  }
+  
+  .image img {
+    max-width: 45%; /* Ensure the image doesn't exceed its container's width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
