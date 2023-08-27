@@ -8,6 +8,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
+
   header {
     background-color: rgb(178, 206, 217);
     color: white;
@@ -53,14 +54,41 @@ body {
     color: gray;
   }
 
-  .image {
+  .homepage-image {
     text-align: left; /* Center the image */
     min-width: 1200px;
+    position: relative;
   }
   
-  .image img {
+  .homepage-image img {
     max-width: 100%; /* Ensure the image doesn't exceed its container's width */
     height: auto; /* Maintain aspect ratio */
     filter: brightness(0.6);
+    animation: fadeInAnimation ease 1.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+
+  .homepage-text{
+    font-family: 'ADLaM Display', cursive;
+    font-family: 'Lora', serif;
+    font-size: 3em;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    word-spacing: 0.5rem;
+    animation: fadeInAnimation ease 1.25s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 

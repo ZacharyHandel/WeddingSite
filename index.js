@@ -10,7 +10,3 @@ app.listen(port, () => {
     console.log(`Now listening on port ${port}`);
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-    const image = document.querySelector(".fade-in");
-    image.classList.add("fade-in");
-});
