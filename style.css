@@ -82,6 +82,10 @@ body {
     animation-delay: 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-text-select: none;
+    -webkit-user-select: none;
   }
   @keyframes fadeInAnimation {
     0% {
